@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+}
+
+h3 {
+  margin-bottom: 1.5rem;
+}
+
+/*--HOME--*/
+.navbar {
+  background-color: rgb(0, 0, 0, 0.5) !important;
+}
+
+.collapse{
+  justify-content: end;
+}
+
+.navbar .navbar-nav {
+  margin-left: 60%;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.2rem;
+}
+.navbar .nav-item {
+  padding: 0 1rem;
+}
+.navbar .nav-link:hover {
+  color: #ff3b3f !important;
+}
+
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+
+.landing .landing-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.landing .landing-inner {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(/src/img/pexels-photo-2473183.jpeg);
+}
+.caption {
+  color: white;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 40%;
+}
+.caption h1 {
+  font-size: 3.8rem;
+  padding-bottom: 3rem;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  color: white;
+}
+.caption h2 {
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+/*--HOME--*/
+
+/*--ABOUT --*/
+.about {
+  background-color: white;
+}
+.about-wrap {
+  width: 70%;
+  margin: 0 auto;
+  padding: 2.5rem 2rem 3rem;
+}
+.about h3 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding-bottom: 1.5rem;
+  color: hsl(274, 91%, 31%);
+}
+.about_img {
+  padding: 1rem 0.5rem;
+  width: 100%;
+  height: 100%;
+  border-radius: 20%;
+}
+.about_text {
+  padding: 1.3rem 1rem;
+  text-align: left;
+  letter-spacing: .1rem;
+  font-size: 1.1rem;
+}
+/*--END ABOUT--*/
+
+/*--PROJECTS--*/
+.projects {
+  background-color: #062f4f;
+}
+.projects-wrap {
+  width: 75%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+.projects h3 {
+  color: white;
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding-bottom: 1.5rem;
+}
+.projects h4 {
+  color: white;
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.projects-list {
+  list-style: none;
+}
+.projects .card {
+  width: 23rem;
+  height: 27rem;
+  margin: 1rem;
+}
+.projects .card-body {
+  margin: 0 1rem;
+}
+.projects .card-text {
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid black;
+}
+.projects .card-text .btn {
+  margin: 0.1rem;
+  cursor: default;
+}
+.projects .card-btn .btn {
+  margin: 0.3rem;
+  font-size: 1.1rem;
+}
+
+/*--END PROJECTS --*/
+
+/*--CONTACT--*/
+.contact {
+  background: white;
+}
+.contact-wrap {
+  widows: 70%;
+  height: 100%;
+  padding: 3rem 0;
+}
+.contact h3 {
+  font-weight: bold;
+  font-size: 3rem;
+  padding-bottom: 1.5rem;
+}
+.contact h4 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 1.5rem;
+}
+.contact .contact-link {
+  margin: 1.5rem;
+  font-size: 2rem;
+  color: #ff3b3f;
+}
+.contact .contact-link:hover {
+  color: hsl(359, 100%, 50%);
+}
+/*--END CONTACT--*/
+
+/*--FOOTER--*/
+footer {
+  background: black;
+  color: white;
+  font-size: 1.3rem;
+}
+/*--END FOOTER--*/
+
+
+
+/*--
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+--*/
