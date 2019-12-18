@@ -133,6 +133,11 @@ h3 {
   height: 27rem;
   margin: 1rem;
 }
+
+.projects .card-title {
+ font-weight: bold;
+ font-size: 1.3rem;
+}
 .projects .card-body {
   margin: 0 1rem;
 }
@@ -142,12 +147,16 @@ h3 {
   border-bottom: 1px solid black;
 }
 .projects .card-text .btn {
-  margin: 0.1rem;
+  margin: 0.2rem;
   cursor: default;
 }
 .projects .card-btn .btn {
   margin: 0.3rem;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+}
+
+.projects .card-text .btn-light{
+  border: 1px solid black;
 }
 
 /*--END PROJECTS --*/
@@ -174,10 +183,10 @@ h3 {
 .contact .contact-link {
   margin: 1.5rem;
   font-size: 2rem;
-  color: #ff3b3f;
+  color:hsl(271, 76%, 53%);
 }
 .contact .contact-link:hover {
-  color: hsl(359, 100%, 50%);
+  color: hsl(271, 91%, 31%);
 }
 /*--END CONTACT--*/
 
