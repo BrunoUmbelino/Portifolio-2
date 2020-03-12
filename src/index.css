@@ -11,7 +11,7 @@ h3 {
 
 /*--HOME--*/
 .navbar {
-  background-color: rgb(0, 0, 0, 0.5) !important;
+  background-color: rgb(0, 0, 0, 0.9) !important;
 }
 
 .collapse{
@@ -82,12 +82,11 @@ h3 {
 .about-wrap {
   width: 70%;
   margin: 0 auto;
-  padding: 2.5rem 2rem 3rem;
+  padding: 6rem 2rem;
 }
 .about h3 {
   font-size: 2.2rem;
   font-weight: bold;
-  padding-bottom: 1.5rem;
   color: hsl(274, 91%, 31%);
 }
 .about_img {
@@ -166,9 +165,8 @@ h3 {
   background: white;
 }
 .contact-wrap {
-  widows: 70%;
-  height: 100%;
-  padding: 3rem 0;
+  width: 100%;
+  padding: 10rem 0;
 }
 .contact h3 {
   font-weight: bold;
@@ -183,10 +181,10 @@ h3 {
 .contact .contact-link {
   margin: 1.5rem;
   font-size: 2rem;
-  color:hsl(271, 76%, 53%);
+  color: hsl(271, 91%, 31%);
 }
 .contact .contact-link:hover {
-  color: hsl(271, 91%, 31%);
+  color:hsl(271, 76%, 53%);
 }
 /*--END CONTACT--*/
 
